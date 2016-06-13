@@ -16,3 +16,7 @@ The experiments are based on a subset of 264 solos taken from the publically ava
 | `score.zip`  |  Solo melody transcription for **all** 299 solos in the WJD (`csv` files containing note-wise score parameters, three columns: MIDI pitch, onset [seconds], durations [seconds]) |
 | `wjazzdb`  | sqlite database from the WJD   |
 | `pandas_data_frames.zip`  | 3 `DataFrame` objects (see `pandas` python library) exported to `CSV` format, contain raw experiment analysis data |
+
+## Python Code
+
+* The Python code for tuning estimation, score-informed f0-tracking and loudness tracking is currently bundled in the `pymus` python package ([Link (pypi)](https://pypi.python.org/pypi/pymus/)). 
